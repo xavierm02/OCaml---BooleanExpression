@@ -1,0 +1,60 @@
+### Starting build.
+# Target: Test.ml.depends, tags: { debug, extension:ml, file:Test.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules Test.ml > Test.ml.depends
+# Target: BooleanExpression.mli.depends, tags: { debug, extension:mli, file:BooleanExpression.mli, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpression.mli > BooleanExpression.mli.depends # cached
+# Target: BooleanExpressionFiles/IntSet.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/IntSet.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/IntSet.ml > BooleanExpressionFiles/IntSet.ml.depends # cached
+# Target: BooleanExpressionFiles/IntSet.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/IntSet.cmo, file:BooleanExpressionFiles/IntSet.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/IntSet.cmo BooleanExpressionFiles/IntSet.ml # cached
+# Target: BooleanExpression.cmi, tags: { byte, compile, debug, extension:mli, file:BooleanExpression.mli, interf, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpression.cmi BooleanExpression.mli # cached
+# Target: BooleanExpressionFiles/Lexer.mll, tags: { debug, extension:mll, file:BooleanExpressionFiles/Lexer.mll, lexer, ocaml, ocamllex, quiet, traverse }
+/usr/bin/ocamllex -q BooleanExpressionFiles/Lexer.mll # cached
+# Target: BooleanExpressionFiles/Lexer.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/Lexer.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/Lexer.ml > BooleanExpressionFiles/Lexer.ml.depends # cached
+# Target: BooleanExpressionFiles/Parser.mly, tags: { debug, extension:mly, file:BooleanExpressionFiles/Parser.mly, ocaml, ocamlyacc, parser, quiet, traverse }
+/usr/bin/ocamlyacc BooleanExpressionFiles/Parser.mly # cached
+# Target: BooleanExpressionFiles/Parser.mli.depends, tags: { debug, extension:mli, file:BooleanExpressionFiles/Parser.mli, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/Parser.mli > BooleanExpressionFiles/Parser.mli.depends # cached
+# Target: BooleanExpressionFiles/Type.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/Type.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/Type.ml > BooleanExpressionFiles/Type.ml.depends # cached
+# Target: BooleanExpressionFiles/Type.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/Type.cmo, file:BooleanExpressionFiles/Type.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/Type.cmo BooleanExpressionFiles/Type.ml # cached
+# Target: BooleanExpressionFiles/Parser.cmi, tags: { byte, compile, debug, extension:mli, file:BooleanExpressionFiles/Parser.mli, interf, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/Parser.cmi BooleanExpressionFiles/Parser.mli # cached
+# Target: BooleanExpressionFiles/Lexer.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/Lexer.cmo, file:BooleanExpressionFiles/Lexer.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/Lexer.cmo BooleanExpressionFiles/Lexer.ml # cached
+# Target: Test.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:Test.cmo, file:Test.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o Test.cmo Test.ml
+# Target: BooleanExpression.ml.depends, tags: { debug, extension:ml, file:BooleanExpression.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpression.ml > BooleanExpression.ml.depends # cached
+# Target: BooleanExpressionFiles/AlgebraicManipulation.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/AlgebraicManipulation.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/AlgebraicManipulation.ml > BooleanExpressionFiles/AlgebraicManipulation.ml.depends # cached
+# Target: BooleanExpressionFiles/AlgebraicManipulation.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/AlgebraicManipulation.cmo, file:BooleanExpressionFiles/AlgebraicManipulation.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/AlgebraicManipulation.cmo BooleanExpressionFiles/AlgebraicManipulation.ml # cached
+# Target: BooleanExpressionFiles/Constructors.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/Constructors.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/Constructors.ml > BooleanExpressionFiles/Constructors.ml.depends # cached
+# Target: BooleanExpressionFiles/Constructors.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/Constructors.cmo, file:BooleanExpressionFiles/Constructors.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/Constructors.cmo BooleanExpressionFiles/Constructors.ml # cached
+# Target: BooleanExpressionFiles/ConversionCanonical.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/ConversionCanonical.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/ConversionCanonical.ml > BooleanExpressionFiles/ConversionCanonical.ml.depends # cached
+# Target: BooleanExpressionFiles/Information.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/Information.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/Information.ml > BooleanExpressionFiles/Information.ml.depends # cached
+# Target: BooleanExpressionFiles/Information.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/Information.cmo, file:BooleanExpressionFiles/Information.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/Information.cmo BooleanExpressionFiles/Information.ml # cached
+# Target: BooleanExpressionFiles/ConversionCanonical.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/ConversionCanonical.cmo, file:BooleanExpressionFiles/ConversionCanonical.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/ConversionCanonical.cmo BooleanExpressionFiles/ConversionCanonical.ml # cached
+# Target: BooleanExpressionFiles/ConversionString.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/ConversionString.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/ConversionString.ml > BooleanExpressionFiles/ConversionString.ml.depends # cached
+# Target: BooleanExpressionFiles/ConversionString.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/ConversionString.cmo, file:BooleanExpressionFiles/ConversionString.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/ConversionString.cmo BooleanExpressionFiles/ConversionString.ml # cached
+# Target: BooleanExpression.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpression.cmo, file:BooleanExpression.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpression.cmo BooleanExpression.ml # cached
+# Target: BooleanExpressionFiles/Parser.ml.depends, tags: { debug, extension:ml, file:BooleanExpressionFiles/Parser.ml, ocaml, ocamldep, quiet, traverse }
+/usr/bin/ocamldep -modules BooleanExpressionFiles/Parser.ml > BooleanExpressionFiles/Parser.ml.depends # cached
+# Target: BooleanExpressionFiles/Parser.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:BooleanExpressionFiles/Parser.cmo, file:BooleanExpressionFiles/Parser.ml, implem, ocaml, quiet, traverse }
+/usr/bin/ocamlc -c -g -I BooleanExpressionFiles -o BooleanExpressionFiles/Parser.cmo BooleanExpressionFiles/Parser.ml # cached
+# Target: Test.byte, tags: { byte, debug, dont_link_with, extension:byte, file:Test.byte, link, ocaml, program, quiet, traverse }
+/usr/bin/ocamlc -g BooleanExpressionFiles/IntSet.cmo BooleanExpressionFiles/Type.cmo BooleanExpressionFiles/AlgebraicManipulation.cmo BooleanExpressionFiles/Constructors.cmo BooleanExpressionFiles/Information.cmo BooleanExpressionFiles/ConversionCanonical.cmo BooleanExpressionFiles/Parser.cmo BooleanExpressionFiles/Lexer.cmo BooleanExpressionFiles/ConversionString.cmo BooleanExpression.cmo Test.cmo -o Test.byte
+# Compilation successful.
